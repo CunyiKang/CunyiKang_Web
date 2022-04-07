@@ -9,10 +9,10 @@ links:
   icon_pack: fab
   name: Follow
   url: https://twitter.com/georgecushen
-slides: example
+#slides: example
 summary: An example of searcingh packages in Rstudio.
-tags:
-- Deep Learning
+#tags:
+#- Deep Learning
 title: chip-seq
 url_code: ""
 url_pdf: ""
