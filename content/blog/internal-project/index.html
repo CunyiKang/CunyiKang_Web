@@ -1,0 +1,42 @@
+---
+date: "2022-04-08T00:00:00Z"
+external_link: ""
+image:
+  caption: 
+  focal_point: Smart
+links:
+- icon: twitter
+  icon_pack: fab
+  name: Follow
+  url: https://twitter.com/georgecushen
+slides: example
+summary: An example of searcingh packages in Rstudio.
+tags:
+- Deep Learning
+title: chip-seq
+url_code: ""
+url_pdf: ""
+url_slides: ""
+url_video: ""
+---
+
+
+
+<p>This blog post will teach you how to search packages about chip-seq in Rstudio.</p>
+<pre class="r"><code>#install.packages(&quot;packagefinder&quot;)
+library(packagefinder) </code></pre>
+<pre><code>## 载入需要的程辑包：tools</code></pre>
+<pre><code>## You are working with 
+## packagefinder version 0.3.2</code></pre>
+<pre><code>## </code></pre>
+<pre><code>## Getting started:</code></pre>
+<pre><code>## * Use findPackage(keywords, mode) to search CRAN for packages, e.g. findPackage(c(&quot;meta&quot;,&quot;regression&quot;), &quot;and&quot;)  or just  findPackage(&quot;meta and regression&quot;) .</code></pre>
+<pre><code>## * Use exploreFields(fields, term) to search a term in the specified fields, e.g. exploreFields(c(&quot;Package&quot;, &quot;Title&quot;), &quot;logistic&quot;).</code></pre>
+<pre><code>## * Use whatsNew() to check for new packages on CRAN.</code></pre>
+<pre><code>## Tip: Check out the online help pages for more parameters as well as interesting functions like go(), packageDetails() or buildIndex().</code></pre>
+<pre class="r"><code>packagefinder::findPackage(&quot;chip-seq&quot;)</code></pre>
+<pre><code>## Your are searching packages for the term &#39;chip-seq&#39;
+## 
+## Please wait while index is being searched...
+## 
+## Results: 13 out of 19049 CRAN packages found in 4 seconds.</code></pre>

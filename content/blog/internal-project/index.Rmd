@@ -1,0 +1,30 @@
+---
+date: "2022-04-08T00:00:00Z"
+external_link: ""
+image:
+  caption: 
+  focal_point: Smart
+links:
+- icon: twitter
+  icon_pack: fab
+  name: Follow
+  url: https://twitter.com/georgecushen
+slides: example
+summary: An example of searcingh packages in Rstudio.
+tags:
+- Deep Learning
+title: chip-seq
+url_code: ""
+url_pdf: ""
+url_slides: ""
+url_video: ""
+---
+
+This blog post will teach you how to search packages about chip-seq in Rstudio.
+
+```{r}
+#install.packages("packagefinder")
+library(packagefinder) 
+packagefinder::findPackage("chip-seq")
+```
+
