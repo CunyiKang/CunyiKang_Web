@@ -1,0 +1,30 @@
+---
+date: "2025-03-19T00:00:00Z"
+external_link: ""
+image:
+  caption: 
+  focal_point: Smart
+links:
+- icon: twitter
+  icon_pack: fab
+  name: Follow
+  url: https://twitter.com/georgecushen
+#slides: example
+summary: 心理学大类论文写作逻辑.
+#tags:
+#- Deep Learning
+title: Psychological Academic Writing
+url_code: ""
+url_pdf: ""
+url_slides: ""
+url_video: ""
+---
+
+This blog post will share you some tips psychological academic writing (in Chinese).
+
+<video width="640" height="360" controls>
+  <source src="/media/Psychology_writing.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+
